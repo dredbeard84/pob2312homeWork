@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson01", "Lesson1\Lesson01.csproj", "{7A45EC93-4A52-4FCB-9885-312593862AE4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson02", "Lesson2\Lesson02.csproj", "{60F3520E-CE2C-44C6-A75C-36402BCFD3B3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson03", "Lesson3\Lesson03.csproj", "{4D090A55-74CB-4F2E-9365-A6F13AF54FB3}"
@@ -13,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson04", "Lesson4\Lesson0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson05", "Lesson5\Lesson05.csproj", "{B357EED9-2020-465E-94FD-50CE238ED26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson07", "Lesson07\Lesson07.csproj", "{03527829-B602-4960-8318-5F900CC0E604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson07", "Lesson07\Lesson07.csproj", "{03527829-B602-4960-8318-5F900CC0E604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7A45EC93-4A52-4FCB-9885-312593862AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A45EC93-4A52-4FCB-9885-312593862AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A45EC93-4A52-4FCB-9885-312593862AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A45EC93-4A52-4FCB-9885-312593862AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60F3520E-CE2C-44C6-A75C-36402BCFD3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60F3520E-CE2C-44C6-A75C-36402BCFD3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60F3520E-CE2C-44C6-A75C-36402BCFD3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
