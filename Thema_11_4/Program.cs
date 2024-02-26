@@ -67,17 +67,17 @@
 /* Задание 2: Напишите программу, которая генерирует случайное число от 1 до 12 (например, соответствующее месяцу) и выводит на экран название этого месяца. 
  */
 
-//Random random = new Random();
-//int m = random.Next(1, 13);
-//if (m == 1) Console.WriteLine("Январь");
-//else if (m == 2) Console.WriteLine("Февраль");
-//else if (m == 3) Console.WriteLine("Март");
-//else if (m == 4) Console.WriteLine("Апрель");
-//else if (m == 5) Console.WriteLine("Май");
-//else if (m == 6) Console.WriteLine("Июнь");
-//else if (m == 7) Console.WriteLine("Июль");
-//else if (m == 8) Console.WriteLine("Август");
-//else if (m == 9) Console.WriteLine("Сентябрь");
-//else if (m == 10) Console.WriteLine("Октябрь");
-//else if (m == 11) Console.WriteLine("Ноябрь");
-//else if (m == 12) Console.WriteLine("Декабрь");
+Random random = new Random();
+int m = random.Next(1, 13);
+if (m == 1) Console.WriteLine("Январь");
+else if (m == 2) Console.WriteLine("Февраль");
+else if (m == 3) Console.WriteLine("Март");
+else if (m == 4) Console.WriteLine("Апрель");
+else if (m == 5) Console.WriteLine("Май");
+else if (m == 6) Console.WriteLine("Июнь");
+else if (m == 7) Console.WriteLine("Июль");
+else if (m == 8) Console.WriteLine("Август");
+else if (m == 9) Console.WriteLine("Сентябрь");
+else if (m == 10) Console.WriteLine("Октябрь");
+else if (m == 11) Console.WriteLine("Ноябрь");
+else if (m == 12) Console.WriteLine("Декабрь");
