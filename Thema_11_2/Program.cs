@@ -14,4 +14,5 @@ Console.Write("Введите температуру: ");
 double temp = double.Parse(Console.ReadLine());
 if (temp > 20) Console.WriteLine("Можно выпустить на прогулку слонов, жирафов и львов");
 else if (temp < 20) Console.WriteLine("Можно выпустить на прогулку медведей, волков и пингвинов");
-else Console.WriteLine("Можно выпустить на прогулку только кенгуру");
+else if (temp == 20) Console.WriteLine("Можно выпустить на прогулку только кенгуру");
+else Console.WriteLine("Укажите верное значение температуры");
