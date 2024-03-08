@@ -13,7 +13,7 @@ int[] mas = new int[10];
 Random random = new Random();
 for (int i = 0; i < mas.Length; i++)
 {
-    mas[i] = random.Next(0, 10);
+    mas[i] = random.Next(11);
 }
 
 // 3
