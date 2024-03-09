@@ -77,8 +77,12 @@ do
                 {
                     for (int i = 0; i < count; i++)
                     {
-                        Console.WriteLine($"{i + 1,-3}{mas[i, 0],-20}{mas[i, 1],-10}" +
-                            $"{mas[i, 2],-10}{mas[i, 3],5}");
+                        Console.WriteLine
+                            ($"{i + 1,-3}" +
+                             $"{mas[i, 0],-20}" +
+                             $"{mas[i, 1],-10}" +
+                             $"{mas[i, 2],-10}" +
+                             $"{mas[i, 3],5}");
                     }
                     Console.ReadKey();
                 }

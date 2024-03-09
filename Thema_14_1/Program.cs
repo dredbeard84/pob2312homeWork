@@ -22,6 +22,7 @@ for (int i = 0; i < passLength; i++)
 }
 Console.WriteLine();
 
+
 //Console.Write("ВВедите Х: ");
 //double x = double.Parse(Console.ReadLine());
 //Console.Write("Введите Y: ");
