@@ -11,24 +11,15 @@ int[] mas = new int[10];
 
 // 2
 Random random = new Random();
-for (int i = 0; i < mas.Length; i++)
-{
-    mas[i] = random.Next(11);
-}
+for (int i = 0; i < mas.Length; i++) mas[i] = random.Next(11);
 
 // 3
-for (int i = 0; i < mas.Length; i++)
-{
-    Console.Write(mas[i] + " ");
-}
+for (int i = 0; i < mas.Length; i++) Console.Write(mas[i] + " ");
 Console.WriteLine();
 
 // 4
 int count = 0;
-for (int i = 0; i < mas.Length; i++)
-{
-    if (mas[i] > 0 && mas[i] % 2 == 0) count++;
-}
+for (int i = 0; i < mas.Length; i++) if (mas[i] > 0 && mas[i] % 2 == 0) count++;
 
 // 5
 Console.Write($"Количество чётных чисел в массиве: {count}");
