@@ -6,21 +6,12 @@
     4. Составьте цикл, проверяющий количество чётных чисел.
     5. Выведите на экран количество чётных чисел массива. */
 
-// 1
-int[] mas = new int[10];
-
-// 2
-Random random = new Random();
+int[] mas = new int[10];                                                            // 1
+Random random = new Random();                                                       // 2
 for (int i = 0; i < mas.Length; i++) mas[i] = random.Next(11);
-
-// 3
-for (int i = 0; i < mas.Length; i++) Console.Write(mas[i] + " ");
+for (int i = 0; i < mas.Length; i++) Console.Write(mas[i] + " ");                   // 3
 Console.WriteLine();
-
-// 4
-int count = 0;
+int count = 0;                                                                      // 4
 for (int i = 0; i < mas.Length; i++) if (mas[i] > 0 && mas[i] % 2 == 0) count++;
-
-// 5
-Console.Write($"Количество чётных чисел в массиве: {count}");
+Console.Write($"Количество чётных чисел в массиве: {count}");                       // 5
 Console.WriteLine();
