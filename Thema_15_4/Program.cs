@@ -5,49 +5,53 @@
    Конечным результатом должен быть, выведенный на консоль, массив, хранящий следующее:
    Произведение средних арифметических (1 и 2) и (3 и 4) массивов поиндексно. */
 
+Random random = new Random();
 int[] mas1 = new int[2];
 int[] mas2 = new int[2];
-//int[] mas3 = new int[2];
-//int[] mas4 = new int[2];
-Random random = new Random();
-Console.Write("Массив 1: ");
+int[] mas3 = new int[2];
+int[] mas4 = new int[2];
+double[] masSum1_2 = new double[2];
+double[] masSum3_4 = new double[2];
+double[] masTotal = new double[2];
 for (int i = 0; i < mas1.Length; i++)
 {
     mas1[i] = random.Next(10, 100);
-    Console.Write(mas1[i] + " ");
+    Console.Write($"{mas1[i]} ");// массив 1
 }
 Console.WriteLine();
-Console.Write("Массив 2: ");
 for (int i = 0; i < mas2.Length; i++)
 {
     mas2[i] = random.Next(10, 100);
-    Console.Write(mas2[i] + " ");
+    Console.Write($"{mas2[i]} ");// массив 2
 }
 Console.WriteLine();
-int a0 = mas1[0];
-int b0 = mas2[0];
-double avg1 = (a0 + b0) / 2;
-Console.WriteLine($"{avg1:F2}");
-int a1 = mas1[1];
-int b1 = mas2[1];
-double avg2 = (a1 + b1) / 2;
-Console.WriteLine($"{avg2:F2}");
-//double avg2 = (mas1[1] + mas2[1]) / 2;
-//Console.WriteLine($"{avg2:F2}");
-double[] masAvg1_2 = { avg1, avg2 };
-Console.WriteLine(masAvg1_2[2]);
-
-//Console.Write("Массив 3: ");
-//for (int i = 0; i < mas3.Length; i++)
-//{
-//    mas3[i] = random.Next(10, 100);
-//    Console.Write(mas3[i] + " ");
-//}
-//Console.WriteLine();
-//Console.Write("Массив 4: ");
-//for (int i = 0; i < mas4.Length; i++)
-//{
-//    mas4[i] = random.Next(10, 100);
-//    Console.Write(mas4[i] + " ");
-//}
-//Console.WriteLine();
+for (int i = 0; i < masSum1_2.Length; i++)
+{
+    masSum1_2[i] = (mas1[i] + mas2[i]) / 2;
+    Console.Write($"{masSum1_2[i]:F2} ");// среднее арифметическое массивов 1 и 2 поиндексно
+}
+Console.WriteLine();
+for (int i = 0; i < mas3.Length; i++)
+{
+    mas3[i] = random.Next(10, 100);
+    Console.Write($"{mas3[i]} ");// массив 3
+}
+Console.WriteLine();
+for (int i = 0; i < mas4.Length; i++)
+{
+    mas4[i] = random.Next(10, 100);
+    Console.Write($"{mas4[i]} ");// массив 4
+}
+Console.WriteLine();
+for (int i = 0; i < masSum3_4.Length; i++)
+{
+    masSum3_4[i] = (mas3[i] + mas4[i]) / 2;
+    Console.Write($"{masSum3_4[i]:F2} ");// среднее арифметическое массивов 3 и 4 поиндексно
+}
+Console.WriteLine();
+for (int i = 0; i < masTotal.Length; i++)
+{
+    masTotal[i] = (masSum1_2[i] * masSum3_4[i]) / 2;
+    Console.Write($"{masTotal[i]:F2} ");// произведение средних арифметических массивов
+}
+Console.WriteLine();
