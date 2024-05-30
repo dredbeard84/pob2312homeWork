@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thema_15_2", "Thema_15_2\Th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thema_15_3", "Thema_15_3\Thema_15_3.csproj", "{17603237-6987-4B90-8279-6F69C53FAC60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thema_15_4", "Thema_15_4\Thema_15_4.csproj", "{0304278C-210B-4BEE-AA70-FEC677173816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thema_15_4", "Thema_15_4\Thema_15_4.csproj", "{0304278C-210B-4BEE-AA70-FEC677173816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thema_08_4", "Thema_08_4\Thema_08_4.csproj", "{DBB1A340-2147-4193-9C3F-E20529DD23B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{0304278C-210B-4BEE-AA70-FEC677173816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0304278C-210B-4BEE-AA70-FEC677173816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0304278C-210B-4BEE-AA70-FEC677173816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB1A340-2147-4193-9C3F-E20529DD23B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB1A340-2147-4193-9C3F-E20529DD23B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB1A340-2147-4193-9C3F-E20529DD23B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB1A340-2147-4193-9C3F-E20529DD23B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
